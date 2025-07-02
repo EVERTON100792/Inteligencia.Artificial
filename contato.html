@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;600&family=Orbitron:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <header>
+            <nav class="navegacao-principal">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="../#indicação">Livros</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+            <main>
+
+                <h1>Responda nosso formulario e receba em pdf um dos livros citados anteriormente</h1>
+
+                <form class="formulario">
+                    <label for="nomesobrenome">Nome e sobrenome:</label><br>
+                    <input type="text" id="nomesobrenome" required><br><br>
+
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" required placeholder="seuemail@dominio.com"><br><br>
+
+                    <label for="telefone">Telefone</label><br>
+                    <input type="tel" id="telefone" required placeholder="(XX) XXXXX-XXXX"><br><br>
+
+                    <label for="livros">Quais dos livros gostaria de receber:</label><br>
+                    <select id="livros" name="livros" required>
+                        <option value="">Selecione</option>
+                        <option value="Melanie">Melanie Mitchell -A Guide for Thinking Humans</option>
+                        <option value="Ray">Ray Kurzweil A Era das Máquinas Espirituais</option>
+                        <option value="Alan">Alan Turing Cientista Universal- O Pai da Inteligencia Artificial</option>
+                    </select><br><br>
+
+                    <label>Gostaria de receber quai tipos de materiais:</label><br>
+                    <input type="radio" id="gratis" name="tipo_material" value="gratis" required>
+                    <label for="gratis">Gratuitos</label><br>
+                    <input type="radio" id="pago" name="tipo_material" value="pago" required>
+                    <label for="pago">Pagos</label><br><br>
+
+
+
+                    <label for="topicos">Quais tópicos de IA você quer aprender? (marque quantos quiser)</label><br>
+                    <input type="checkbox" id="ml" name="topicos" value="Benefícios da Inteligência Artificial">
+                    <label for="ml">Benefícios da Inteligência Artificial</label><br>
+                    <input type="checkbox" id="nlp" name="topicos" value="As Promessas da IA para o Futuro">
+                    <label for="nlp">As Promessas da IA para o Futuro</label><br>
+                    <input type="checkbox" id="visao" name="topicos" value="Prepare-se Para o novo mundo">
+                    <label for="visao">Prepare-se Para o Novo Mundo</label><br><br>
+
+                    <button type="submit">Enviar</button>
+                </form>
+                <div class="buttonvoltar">
+                    <a href="index.html">Voltar</a>
+                </div>
+
+            </main>
+    </section>
+    <footer class="rodape">
+
+
+        <p>&copy; 2025 | Desenvolvido por Everton Moura | </p>
+        <a href="#">Voltar ao topo</a></p>
+
+    </footer>
+
+</body>
+
+</html>

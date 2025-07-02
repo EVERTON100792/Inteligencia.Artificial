@@ -1,0 +1,353 @@
+body {
+    /* Remove a margem superior padrão que os navegadores costumam aplicar. */
+    margin-top: 0;
+    
+    /* As duas próximas linhas centralizam o conteúdo horizontalmente na página. */
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* Defino 'Exo' como a fonte principal para os textos do corpo da página, com 'sans-serif' como alternativa. */
+    font-family: 'Exo', sans-serif;
+    
+    /* Defino a cor do texto principal como um cinza bem claro (quase branco). */
+    color: #f0f0f0;
+    
+    /* Defini a cor de fundo da página como um cinza bem escuro (quase preto). */
+    background-color: #0a0a0a;
+    
+    /* Defini a altura da linha para 1.6 vezes o tamanho da fonte, melhorando a legibilidade. */
+    line-height: 1.6;
+
+    /* Centralizei o corpo da página horizontalmente, distribuindo o espaço de margem igualmente à esquerda e à direita. */
+    margin: auto;
+    
+    /* Fiz com que o corpo da página ocupe 100% da largura do seu container pai (a janela do navegador). */
+    width: 100%;
+    
+    /* Define a largura máxima do conteúdo para 1200 pixels, garantindo que não fique excessivamente largo em telas grandes. */
+    max-width: 1200px;
+}
+
+/* Estilizei os cabeçalhos de nível 1, 2 e 3. */
+h1,
+h2,
+h3 {
+    /* Defini 'Orbitron' como a fonte para os títulos, com 'sans-serif' como alternativa. */
+    font-family: 'Orbitron', sans-serif;
+    
+    /* Defino o peso da fonte como 700 (negrito). */
+    font-weight: 700;
+    
+    /* Defini a cor dos títulos como um azul ciano brilhante. */
+    color: #00f0ff;
+    
+    /* Transformei todo o texto dos títulos para maiúsculas. */
+    text-transform: uppercase;
+    
+    /* Adicionei um pequeno espaçamento de 1 pixel entre as letras. */
+    letter-spacing: 1px;
+}
+
+/* Estilizei o elemento com a classe "cabeçalho". */
+.cabeçalho {
+    /* Adicionei uma margem de 80 pixels na parte inferior do cabeçalho. */
+    margin-bottom: 80px;
+}
+
+/* Estilizei todos os elementos <section>. */
+section {
+    /* Adicionei um espaçamento interno de 20px no topo/base e 25px nas laterais. */
+    padding: 20px 25px;
+    
+    /* Adicionei uma margem de 40px no topo/base e 0 nas laterais. */
+    margin: 40px 0;
+    
+    /* Defini a cor de fundo como um cinza escuro, ligeiramente mais claro que o fundo do body. */
+    background-color: #111;
+    
+    /* Adicionei uma borda de 5 pixels sólida e azul ciano no lado esquerdo. */
+    border-left: 3px solid #00f0ff;
+    
+    /* Arredondei os cantos da borda em 10 pixels. */
+    border-radius: 10px;
+    
+    /* Adicionei uma sombra ao redor da seção com a cor azul ciano e um leve desfoque. */
+    box-shadow: 0 0 10px #00f0ff55;
+}
+
+/* Estilizei o elemento com o ID "indicação" de forma similar à section. */
+#indicação {
+    padding: 20px 25px;
+    margin: 40px 0;
+    background-color: #111;
+    border-left: 3px solid #00f0ff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00f0ff55;
+}
+
+/* coloquei um efeito ao passar o mouse sobre o elemento com ID "indicação". */
+#indicação:hover {
+    /* Aumentei o desfoque da sombra, intensificando o brilho ao passar o mouse. */
+    box-shadow: 0 0 20px;
+}
+
+/* Estilizei as listas não ordenadas (<ul>) dentro de um elemento com a classe "linhadotempo". */
+.linhadotempo ul {
+    /* Removi os marcadores padrão (bolinhas) da lista. */
+    list-style: none;
+    
+    /* Adicionei um espaçamento à esquerda para alinhar o texto. */
+    padding-left: 10px;
+}
+
+/* Estilizei os itens de lista (<li>) dentro da "linhadotempo". */
+.linhadotempo li {
+    /* Adicionei uma margem de 12 pixels na parte inferior de cada item da lista. */
+    margin-bottom: 12px;
+}
+
+/* Estilizei o elemento com a classe "imagemrosto". */
+.imagemrosto {
+    /* Adicionei uma borda de 2 pixels, sólida e de cor cinza claro. */
+    border: 2px solid rgb(236, 231, 231);
+    
+    /* Arredondei os cantos da imagem em 10 pixels. */
+    border-radius: 10px;
+    
+    /* Adicionei uma sombra suave para dar profundidade. */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    
+    /* Apliquei um leve filtro de escala de cinza (20%) na imagem. */
+    filter: grayscale(0.2);
+    
+    /* Garanto que a imagem cubra toda a área designada, cortando o excesso se necessário. */
+    object-fit: cover;
+    
+    /* Adicionei um espaço de 20 pixels abaixo da imagem. */
+    margin-bottom: 20px;
+}
+
+/* Estilizei todas as tabelas (<table>). */
+table {
+    /* Juntei as bordas das células, criando uma aparência de linha única. */
+    border-collapse: collapse;
+    
+    /* Fiz a tabela ocupar 100% da largura do seu container pai. */
+    width: 100%;
+    
+    /* Defini a cor do texto da tabela como azul ciano. */
+    color: #00f0ff;
+    
+    /* Defini a cor de fundo da tabela, igual à do corpo da página. */
+    background-color: #0a0a0a;
+    
+    /* Defini a fonte 'Orbitron' para a tabela. */
+    font-family: 'Orbitron', sans-serif;
+    
+    /* Adicionei um efeito de brilho azul ciano ao redor da tabela. */
+    box-shadow: 0 0 10px #00f0ff;
+    
+    /* Arredondei os cantos da tabela em 12 pixels. */
+    border-radius: 12px;
+    
+    /* Garanti que o conteúdo que transborda (como as células nos cantos) seja cortado para respeitar as bordas arredondadas. */
+    overflow: hidden;
+}
+
+/* Estilizei as células de cabeçalho (<th>) e as células de dados (<td>) da tabela. */
+th,
+td {
+    /* Adicionei um espaçamento interno para conforto visual. */
+    padding: 12px 16px;
+    
+    /* Defini uma borda fina e azul ciano para cada célula. */
+    border: 1px solid #00f0ff;
+    
+    /* Alinhei o texto das células à esquerda. */
+    text-align: left;
+}
+
+/* Estilizei especificamente as células de cabeçalho (<th>). */
+th {
+    /* Deixei o texto do cabeçalho em negrito. */
+    font-weight: bold;
+    
+    /* Transformei todo o texto do cabeçalho para maiúsculas. */
+    text-transform: uppercase;
+}
+
+/* Estilizei o elemento com a classe "imagem02". */
+.imagem02 {
+    /* Adicionei uma borda de 2 pixels, sólida e cinza claro. */
+    border: 2px solid rgb(236, 231, 231);
+    
+    /* Arredondei os cantos em 10 pixels. */
+    border-radius: 10px;
+    
+    /* Garanti que a imagem cubra a área designada. */
+    object-fit: cover;
+    
+    /* Adicionei um espaço de 20 pixels abaixo. */
+    margin-bottom: 20px;
+}
+
+/* Estilizei o elemento com a classe "legendaimagem". */
+.legendaimagem {
+    /* Defini a fonte 'Exo' para a legenda. */
+    font-family: 'Exo', sans-serif;
+    
+    /* Defini o tamanho da fonte como 90% do tamanho padrão. */
+    font-size: 0.9rem;
+    
+    /* Defini a cor da legenda como um cinza claro. */
+    color: #aaaaaa;
+    
+    /* Adicionei um pequeno espaço acima da legenda, separando-a da imagem. */
+    margin-top: 8px;
+    
+    /* Defini a altura da linha para 1.4 vezes o tamanho da fonte. */
+    line-height: 1.4;
+    
+    /* Deixei o texto da legenda em itálico. */
+    font-style: italic;
+}
+
+/* coloquei um container para alinhar elementos lado a lado. */
+.conteudo-lado-a-lado {
+    /* Ativei o modo Flexbox para o container, permitindo alinhar seus filhos. */
+    display: flex;
+    
+    /* Alinhei os itens filhos (imagem e texto) no topo de seus eixos. */
+    align-items: flex-start;
+    
+    /* Criei um espaço negativo de 50px entre os itens, fazendo-os se sobrepor. */
+    gap: -50px;
+    
+    /* Ocupei 90% da largura disponível. */
+    width: 90%;
+    
+    /* Limitei a largura máxima a 1000px. */
+    max-width: 1000px;
+    
+    /* Centralizei o container.*/
+    margin:auto; 
+}
+
+/* Estilizei os containers da imagem e do texto dentro do layout lado a lado. */
+.imagem-container,
+.texto-container {
+    /* Ajuda a evitar que itens flexíveis transbordem em alguns casos. */
+    min-width: 0;  
+}
+
+/* Garanti que a imagem dentro do 'imagem-container' seja responsiva. */
+.imagem-container img {
+    /* defini para que a imagem ocupará 100% da largura do seu container. */
+    width: 100%;
+    
+    /* A altura será ajustada automaticamente para manter a proporção. */
+    height: auto;
+    
+    /* Removo um pequeno espaço extra que os navegadores às vezes adicionam abaixo das imagens. */
+    display: block;
+   
+   
+}
+
+/* Estilizei o elemento com a classe "rodape". */
+.rodape {
+    /* Centralizei o texto dentro do rodapé. */
+    text-align: center;
+}
+
+/* Estilizei todos os links (tags <a>). */
+a {
+    /* Defini a cor dos links como azul ciano. */
+    color: #00f0ff;
+    
+    /* Define a fonte 'Orbitron' para os links. */
+    font-family: 'Orbitron', sans-serif;
+    
+}
+
+/* defini para que desse esse efeito ao passar o mouse sobre um link. */
+a:hover {
+    color: #0a0a0a; /* Muda a cor do texto para o fundo escuro */
+    background-color: #00f0ff; /* Fundo fica na cor neon */
+    box-shadow: 0 0 15px #00f0ff; /* Efeito de brilho intenso */
+    
+    
+}
+
+/* Estilizei o elemento com a classe "formulario". */
+.formulario {
+    /* Alinhei o conteúdo de texto ao centro. */
+    text-align: center;
+    
+    /* Adicionei margens em todas as direções para centralizar e espaçar. */
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    
+    /* Adicionei uma borda de 2 pixels, sólida e cinza claro. */
+    border: 2px solid rgb(236, 231, 231);
+    
+    /* Arredondei os cantos em 10 pixels. */
+    border-radius: 10px;
+      
+}
+
+/* Estiliza o elemento com a classe "menuformulario". */
+.menuformulario {
+    /* Adicionei um espaçamento interno de 10px no topo. */
+    padding-top: 10px;
+    
+    /* Adicionei um espaçamento interno de 50px à esquerda. */
+    padding-left: 50px;
+    
+    /* Centralizei o texto dentro deste elemento. */
+    text-align: center;
+}
+
+
+
+
+/* --- ESTILOS DO MENU DE NAVEGAÇÃO PRINCIPAL --- */
+
+/* O container da navegação */
+.navegacao-principal {
+    background-color: #111; /* Mesma cor de fundo das seções */
+    padding: 10px 0;
+    border-bottom: 2px solid #00f0ff; /* Linha neon para separar do conteúdo */
+    box-shadow: 0 4px 10px rgba(0, 240, 255, 0.2); /* Sombra/brilho sutil */
+}
+
+/* A lista que contém os links do menu */
+.navegacao-principal ul {
+    list-style: none; /* Remove as bolinhas da lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /*Alinhei os itens na horizontal */
+    justify-content: center; /* Centraliza os links no menu */
+    gap: 40px; /* Espaçamento entre os itens do menu */
+}
+
+/* Os links do menu */
+.navegacao-principal a {
+    color: #f0f0f0; /* Cor do texto (branco) */
+    font-family: 'Orbitron', sans-serif; /* Mesma fonte dos títulos */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    text-transform: uppercase;
+    font-size: 1rem; /* Tamanho da fonte (16px por padrão) */
+    padding: 10px 15px; /* Aumenta a área clicável */
+    border-radius: 5px; /* Cantos levemente arredondados */
+    transition: all 0.3s ease; /* Efeito de transição suave */
+}
+
+/* Efeito ao passar o mouse sobre o link */
+.navegacao-principal a:hover {
+    color: #0a0a0a; /* Muda a cor do texto para o fundo escuro */
+    background-color: #00f0ff; /* Fundo fica na cor neon */
+    box-shadow: 0 0 15px #00f0ff; /* Efeito de brilho intenso */
+}
