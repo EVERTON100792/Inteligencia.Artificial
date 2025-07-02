@@ -221,7 +221,7 @@ th {
     align-items: flex-start;
     
     /* Criei um espaço negativo de 50px entre os itens, fazendo-os se sobrepor. */
-    gap: -50px;
+    gap: 30px;
     
     /* Ocupei 90% da largura disponível. */
     width: 90%;
